@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="st1tic/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="st1tic/css/style-aceuil.css">
+    <link rel="stylesheet" type="text/css" href="st1tic/css/style-admin-gestion-compte.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" >
+    <title>gestion Compte</title>
+  </head>
+  <body> 
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="st1tic/img/demo-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto" >
+                <li class="nav-item  ">
+                  <a class="nav-link" href="{% url 'index' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'comptes' %}">Gestion Compte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'admin-projet' %}">Projet</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="{% url 'publication' %}">Publications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="{% url 'statistique' %}">Statistiques Projet</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section> 
+        <!------------------------navbar-side------------------->
+        <section id="navbar-side">
+            <div class="container">
+
+                <div class="row ">
+                    <div class="col-md-3  sidebar">
+                        <img src="st1tic/img/user1.jpg" class="rounded-circle" width="150">
+                        <div class="mt-3">
+                            <h3>Nom_Admin</h3>
+                            <p>Poste Occupé</p>
+                            <p>adresse@gmail.com</p>
+                            <p>N°Téléphone</p>
+                            <button type="button" class="btn btn-primary">Créer un nouveu compte</button>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <form class="d-flex" style="padding-top: 35px;">
+                            <input class="form-control me-2" type="search" placeholder="Entrer qeulque chose" aria-label="Rechercher">
+                            <button class="btn btn-classe" type="submit">Rechercher</button>
+                          </form>
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="st1tic/img/utili.png" class="img-fluid compte-img">
+                            </div>
+                            <div class="col-md-5 text-center">
+                                <img src="st1tic/img/email.png" class="img-fluid compte-img">
+                            </div>
+                        </div>    
+                        <div class="row ligne">
+                            <div class="col-md-5 text-center">
+                                <p>Nom_Utilisateur1</p>
+                            </div>
+                            <div class="col-md-5 text-center">
+                                <p>adresse@mail.com</p>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <img src="st1tic/img/edit.png" class="edit-supp">
+                                <img src="st1tic/img/corbeille.png" class="edit-supp">
+                            </div>
+                        </div>    
+                        <div class="row ligne">
+                            <div class="col-md-5 text-center">
+                                <p>Nom_Utilisateur1</p>
+                            </div>
+                            <div class="col-md-5 text-center">
+                                <p>adresse@mail.com</p>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <img src="st1tic/img/edit.png" class="edit-supp">
+                                <img src="st1tic/img/corbeille.png" class="edit-supp">
+                            </div>
+                        </div>    
+                        <div class="row ligne">
+                            <div class="col-md-5 text-center">
+                                <p>Nom_Utilisateur1</p>
+                            </div>
+                            <div class="col-md-5 text-center">
+                                <p>adresse@mail.com</p>
+                            </div>
+                            <div class="col-md-2 text-center">
+                                <img src="st1tic/img/edit.png" class="edit-supp">
+                                <img src="st1tic/img/corbeille.png" class="edit-supp">
+                            </div>
+                        </div>    
+                    </div>
+                    
+                </div>
+                </div>
+
+            </div>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="st1tic/js/bootstrap.min.js"></script>
+    <script src="st1tic/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

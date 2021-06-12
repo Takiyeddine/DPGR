@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to left,#373B44,#4286f4);}
+.content
+{
+    margin: 8%;
+    background-color: #ffffff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow:0 0 5px 5px rgba(0, 0, 0, .05) ;
+}
+.signin-text{
+    font-style: normal;
+    font-weight: 600 !important;
+    position: absolute; /* postulat de départ */
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-color: #4286f4 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0  !important;
+    padding: 0px !important;
+    color: #495057;
+    height: auto;
+    border-radius: 0;
+    background-color: #ffffff;
+    background-clip: padding-box;
+}
+.conex{
+  margin-top: 3em; 
+}
+.form-control:focus{
+    color:  #495057;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-classe{
+    border-color:  #4286f4;
+    color:  #4286f4;
+    position: absolute; /* postulat de départ */
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+.btn-classe:hover{
+    background-color:#4286f4;
+    color: #ffffff;
+}

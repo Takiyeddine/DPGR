@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="st1tic/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="st1tic/css/style-aceuil.css">
+    <link rel="stylesheet" type="text/css" href="st1tic/css/style-admin-gestion-compte.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" >
+    <title>gestion Compte</title>
+  </head>
+  <body> 
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="st1tic/img/demo-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto" >
+                
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color :#fff !important;font-weight: 600;">
+                          Nom_utilisateur
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a href="{% url 'index' %}"><button class="dropdown-item" type="button">Home</button></a>
+                            <a href="{% url 'comptes' %}"><button class="dropdown-item" type="button">Gestion Compte</button></a>
+                          <a href="{% url 'admin-projet' %}"><button class="dropdown-item" type="button">Projet</button></a>
+                          <a href="{% url 'publication' %}"><button class="dropdown-item" type="button">Publication</button></a>
+                        </div>
+                      </div>
+                </li>
+                <li class="nav-item">
+                   <img src="st1tic/img/user2.jpg" class="img_stati rounded-circle">
+                  </li>
+
+              </ul>
+            </div>
+          </nav>
+          
+        </section> 
+        <section id="stati">
+            <div class="container">
+                <div class="row">
+                   <img src="st1tic/img/Statistique.webp" class="img-stat" > 
+                </div>
+                <div class="row">
+                    <div class="col-md-3 text-center para-stat">
+                        <p>Nom Projet</p>
+                    </div>
+                    <div class="col-md-2 text-center para-stat">
+                        <p>Nombre Soumission</p>
+                    </div>
+                    <div class="col-md-2 text-center para-stat">
+                        <p>Soumission validée</p>
+                    </div>
+                    <div class="col-md-2 text-center para-stat">
+                        <p>Publication</p>
+                    </div>
+                    <div class="col-md-3 text-center para-stat">
+                        <p>Encadrant</p>
+                    </div>
+                </div>
+                <div class="row row-ligne" ></div>
+                <div class="row" style="padding-top: 10px;">
+                    <div class="col-md-3">
+                        <p>Projet_1</p>
+                        <p class="sous_titre">Sous_titre</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>6</p>
+                    </div>
+                    <div class="col-md-3 text-center ">
+                        <button type="button" class="btn btn-primary">Voir</button>
+                    </div>
+                </div>
+                <div class="row row-ligne" ></div>
+                <div class="row" style="padding-top: 10px;">
+                    <div class="col-md-3">
+                        <p>Projet_2</p>
+                        <p class="sous_titre">Sous_titre</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>6</p>
+                    </div>
+                    <div class="col-md-3 text-center ">
+                        <button type="button" class="btn btn-primary">Voir</button>
+                    </div>
+                </div>
+                <div class="row row-ligne" ></div>
+                <div class="row" style="padding-top: 10px;">
+                    <div class="col-md-3">
+                        <p>Projet_3</p>
+                        <p class="sous_titre">Sous_titre</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>5</p>
+                    </div>
+                    <div class="col-md-2 text-center ">
+                        <p>6</p>
+                    </div>
+                    <div class="col-md-3 text-center ">
+                        <button type="button" class="btn btn-primary">Voir</button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="st1tic/js/bootstrap.min.js"></script>
+    <script src="st1tic/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

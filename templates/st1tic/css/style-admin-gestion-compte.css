@@ -1,0 +1,80 @@
+.sidebar{
+    margin-top: 40px;
+    margin-left: -20px;
+    text-align: center;
+}
+.compte-img{
+    margin-top: 40px;
+    width: 60px;
+}
+.ligne{
+    margin-top: 30px;
+}
+.edit-supp{
+    width: 40px;
+    margin-top: -10px;
+    padding-right: 10px;
+}
+.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#373B44,#4286f4);
+    text-align: center;
+}
+.btn-classe{
+    border-color:  #4286f4;
+    color:  #4286f4;
+}
+.btn-classe:hover{
+    background-color:#4286f4;
+    color: #ffffff;
+}
+/*----------------------------page gestion des pub------------------------------*/
+.parag{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*-------------------------page des statistiques-----------------------------------------*/
+.img_stati{
+    width: 40px;
+}
+#stati{
+    padding-top: 30px;
+}
+.para-stat{
+    font-size: 15px;
+    font-weight: 600;
+}
+.sous_titre{
+    color: gray;
+}
+.row-ligne
+{
+    content: '';
+    background: #4286f4;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.img-stat
+{
+    width: 900px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.btn-classe2{
+    border-color:  #4286f4;
+    color:  #4286f4;
+    position: absolute; /* postulat de départ */
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
